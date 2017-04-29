@@ -32,7 +32,7 @@ a:hover{
 body{
 	font: 12px Arial, Helvetica, sans-serif;
 	color: #000000;
-	background: url(bg.gif) ;
+	background: image-url('bg.gif') ;
 	line-height:20px;
 }
 
@@ -42,7 +42,7 @@ body{
 	margin: 0px auto;
 	padding: 0px 0px 0px 0px;
 	background:#FFFFFF;
-	background: url(big_bg.jpg) bottom no-repeat #FFFFFF;
+	background: image-url('big_bg.jpg') bottom no-repeat #FFFFFF;
 	
 }
 
@@ -54,7 +54,7 @@ height: 378px;
 
 #buttons{
 	width: 1000px;
-	background: url(menu.jpg) left top repeat-x;
+	background: image-url('menu.jpg') left top repeat-x;
 	text-align:center;
 	border-left: 1px solid #FFFFFF;
 	border-right: 1px solid #FFFFFF;
@@ -63,7 +63,7 @@ height: 378px;
 
 #buttons .but {
 	float:left;
-	background: url(but_razd.jpg) right center no-repeat;
+	background: image-url('but_razd.jpg') right center no-repeat;
 	height:69px;
 }
 
@@ -84,11 +84,11 @@ height: 378px;
 
 #buttons a:hover {
 	text-decoration: underline;
-	background:url(over.jpg) repeat-x;
+	background:image-url('over.jpg') repeat-x;
 }
 
 #logo{
-	background: url(logo.jpg) center top no-repeat;
+	background: image-url('logo.jpg') center top no-repeat;
 	height: 284px;
 	padding: 25px 0px 0px 736px;
 }
@@ -108,7 +108,7 @@ height: 378px;
 }
 
 #bg_top {
-	background: url(bg_top.jpg) left top no-repeat;	
+	background: image-url('bg_top.jpg') left top no-repeat;	
 	height:304px;
 	width:317px;
 	float:left;}
@@ -125,14 +125,14 @@ color:#486501;
 font-weight: 900;}
 
 #cont_top { 
-	background: url(cont_top.jpg) top repeat-x;
+	background: image-url('cont_top.jpg') top repeat-x;
 	width:1000px;
 	border-left: 1px solid #FFFFFF;
 	border-right: 1px solid #FFFFFF;
 }
 
 #cont_bot { 
-	background: url(cont_bot.jpg) bottom repeat-x;
+	background: image-url('cont_bot.jpg') bottom repeat-x;
 	width:986px;
 	padding: 7px;
 }
@@ -140,12 +140,12 @@ font-weight: 900;}
 #content{
 	width: 100%;
 	padding: 7px 0px 7px 0px;
-	background: url(cont_bg.png);
+	background: image-url('cont_bg.png');
 }
 
 
 #razd {
-background:url(razd.gif) 232px repeat-y;
+background:image-url('razd.gif') 232px repeat-y;
 width: 972px;
 min-height: 500px;
 padding: 0px 6px 3px 8px;
@@ -156,7 +156,7 @@ padding: 0px 6px 3px 8px;
 	padding: 0px 0px 0px 0px;
 	margin: 0px;
 	float:left;
-	background: url(tit.png) left 28px repeat-x;
+	background: image-url('tit.png') left 28px repeat-x;
 }
 
 #left .list 
@@ -166,13 +166,13 @@ padding: 0px 6px 3px 8px;
 	padding-top: 5px;
 	margin: 0px;
 	display:block;
-	background: url(fish.png) 6px 4px no-repeat;
+	background: image-url('fish.png') 6px 4px no-repeat;
 }
 
 #center{float:left;
 padding: 0px 0px 0px 0px;
 width:512px;
-background: url(tit.png) left 28px repeat-x;
+background: image-url('tit.png') left 28px repeat-x;
 margin: 0px 0px 0px 11px;
 }
 
@@ -190,7 +190,7 @@ span {	color:#1C4B14;
 
 .color { color:#347818;}
 
-.dot { background:url(dot.gif) center repeat-x;
+.dot { background:image-url('dot.gif') center repeat-x;
 height:20px; }
 
 .dat { text-decoration:underline;}
@@ -232,7 +232,7 @@ H2{
 float:right;
 width: 219px;
 padding-right: 0px;
-background: url(tit.png) left 28px repeat-x;
+background: image-url('tit.png') left 28px repeat-x;
 }
 
 
@@ -249,7 +249,7 @@ background: url(tit.png) left 28px repeat-x;
 
 .right li{
 	padding-top: 5px;
-	background: url(fish.png) 6px 4px no-repeat;
+	background: image-url('fish.png') 6px 4px no-repeat;
 	padding-left: 36px;
 }
 
@@ -262,7 +262,7 @@ background: url(tit.png) left 28px repeat-x;
 	text-align: center;
 	clear:both;
 	padding: 10px 0px 10px 0px;
-	background: url(footer.jpg) left top repeat-x;
+	background: image-url('footer.jpg') left top repeat-x;
 	border-left: 1px solid #FFFFFF;
 	border-right: 1px solid #FFFFFF;
 }
